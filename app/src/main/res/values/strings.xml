@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">JetReddit</string>
+    <string name="main_screen">main_screen</string>
+    <string name="onBoarding">onBoarding</string>
+    <string name="auth">Authorization</string>
+    <string name="subreddits">Subreddits</string>
+    <string name="navigation_favourites">navigation_favourites</string>
+    <string name="favourites">Favourites</string>
+    <string name="navigation_home">navigation_home</string>
+    <string name="navigation_auth">navigation_auth</string>
+    <string name="navigation_on_boarding">navigation_on_boarding</string>
+    <string name="navigation_profile">navigation_profile</string>
+    <string name="profile">Profile</string>
+    <string name="navigation_friends">navigation_friends</string>
+    <string name="friends">Friends</string>
+    <string name="navigation_single_subreddit">navigation_single_subreddit</string>
+    <string name="single_subreddit">SingleSubreddit</string>
+    <string name="user">User</string>
+    <string name="navigation_user">navigation_user</string>
+    <string name="navigation_comments">navigation_comments</string>
+    <string name="comments">Comments</string>
+    <string name="icon_for_navigation_item">icon_for_navigation_item</string>
+</resources>
