@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.shu.favorites"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 26
