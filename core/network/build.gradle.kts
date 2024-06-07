@@ -3,7 +3,6 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
-    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
 android {
@@ -33,15 +32,15 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
-    buildFeatures.buildConfig = true
 }
 
 dependencies {
     implementation(project(mapOf("path" to ":core:models")))
     //Hilt
     implementation("com.google.dagger:hilt-android:2.48.1")
+    implementation(project(mapOf("path" to ":feature:auth")))
 
-   ksp("com.google.dagger:hilt-android-compiler:2.48.1")
+    ksp("com.google.dagger:hilt-android-compiler:2.48.1")
 
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")

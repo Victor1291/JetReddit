@@ -4,9 +4,10 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKey
-import com.shu.network.TOKEN_ENABLED_KEY
-import com.shu.network.TOKEN_SHARED_KEY
-import com.shu.network.TOKEN_SHARED_NAME
+import com.shu.auth.domain.StorageService
+import com.shu.models.TOKEN_ENABLED_KEY
+import com.shu.models.TOKEN_SHARED_KEY
+import com.shu.models.TOKEN_SHARED_NAME
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton

@@ -1,12 +1,11 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
 android {
-    namespace = "com.shu.models"
-    compileSdk = 34
+    namespace = "com.shu.strings"
+    compileSdk = 33
 
     defaultConfig {
         minSdk = 26
@@ -31,7 +30,6 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures.buildConfig = true
 }
 
 dependencies {

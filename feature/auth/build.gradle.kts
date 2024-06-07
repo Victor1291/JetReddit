@@ -44,6 +44,8 @@ android {
 dependencies {
 
     implementation(project(mapOf("path" to ":core:models")))
+    implementation(project(":res:drawables"))
+    implementation(project(":res:strings"))
 
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.0")
@@ -63,6 +65,8 @@ dependencies {
 
     //Coil
     implementation("io.coil-kt:coil-compose:2.2.2")
+
+    implementation("com.airbnb.android:lottie:5.2.0")
 
     // implementation("com.github.bumptech.glide:compose:1.0.0-beta01")
 

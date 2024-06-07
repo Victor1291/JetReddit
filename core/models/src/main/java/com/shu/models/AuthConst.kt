@@ -1,4 +1,4 @@
-package com.shu.network
+package com.shu.models
 
 const val CLIENT_ID = BuildConfig.CLIENT_ID
 const val CLIENT_SECRET = ""

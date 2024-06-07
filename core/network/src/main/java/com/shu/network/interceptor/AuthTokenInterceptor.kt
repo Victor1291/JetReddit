@@ -2,8 +2,8 @@ package com.shu.network.interceptor
 
 import android.util.Base64
 import android.util.Log
-import com.shu.network.CLIENT_ID
-import com.shu.network.CLIENT_SECRET
+import com.shu.models.CLIENT_ID
+import com.shu.models.CLIENT_SECRET
 import okhttp3.Interceptor
 import okhttp3.Response
 

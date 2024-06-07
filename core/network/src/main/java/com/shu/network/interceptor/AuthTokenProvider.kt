@@ -1,7 +1,7 @@
 package com.shu.network.interceptor
 
 import android.content.Context
-import com.shu.network.TOKEN_SHARED_KEY
+import com.shu.models.TOKEN_SHARED_KEY
 import com.shu.network.sharedprefsservice.SharedPrefsService
 
 class AuthTokenProvider(private val context: Context,

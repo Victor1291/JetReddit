@@ -1,5 +1,7 @@
 package com.shu.network
 
+import com.shu.models.REDIRECT_URI
+import com.shu.models.ResponseToken
 import retrofit2.http.*
 
 interface ApiToken {
@@ -12,6 +14,3 @@ interface ApiToken {
     ): ResponseToken
 }
 
-class ResponseToken(
-    val access_token: String
-)

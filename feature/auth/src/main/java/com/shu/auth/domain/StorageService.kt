@@ -1,4 +1,4 @@
-package com.shu.network.sharedprefsservice
+package com.shu.auth.domain
 
 interface StorageService {
     fun saveEncryptedToken(data: String)
